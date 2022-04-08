@@ -26,7 +26,7 @@ method pagar(cliente,prenda) =  cliente.cuotas() * (coeficienteFijo + 0.01 * pre
 
 object efectivo {
 var coeficienteFijo
-method pagar(cuotas,prenda) =  prenda.precio() + cuotas * coeficienteFijo + 0.01 * prenda.precio() } 
+method pagar(cliente,prenda) =  prenda.precio() + cliente.cuotas() * coeficienteFijo + 0.01 * prenda.precio() } 
 
 object Nueva {
 method precio(prenda) = prenda.precioBase()
