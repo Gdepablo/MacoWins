@@ -14,3 +14,4 @@ Sacos/Pantalones/Camisas, son clases es decir que se pueden instanciar para que 
 Hay algunos comentarios al lado de cada línea de código que creo son aclaraciones pertinentes a tener en cuenta.
 Combiné composición en algunos lados con herencia pues me pareció que podían otorgar una flexibilidad que soportara nuevos requisitos en el futuro, pero probablemente haya mejores opciones / herramientas que desconozco.
 Probablemente otra solución sería agrupar el tema de las ventas dentro de una clase llamada Macowins, pues son ellos quienes se tienen que encargar de registrar la fecha, el precio, etc, y no realmente la “prenda” en sí, pero como es una abstracción de la realidad, no haría mucho la diferencia.
+Mi idea era que la clase Prendas fuese abstracta, pero no encontré la forma de enchufarle el método abstracto, porque ponerle abstracto el método calcularGanancias y repetir lógica en las subclases me parecía bastante malo
