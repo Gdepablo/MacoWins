@@ -1,14 +1,14 @@
 # MacoWins
 Ejercicio de Macowins para Diseño de Sistemas - Cátedra Viernes Noche - UTN FRBA 2022
 
-#Requerimientos
+# Requerimientos
 Requerimientos:
 •	Saber el precio de venta de una prenda y sus tipos
 •	Calcular los descuentos correspondientes al estado en el que se encuentra la prenda (Liquidación/Promoción/etc)
 •	Registrar las ventas y calcular ganancias
 •	Añadir los dos tipos de formas de pago (efectivo y tarjeta) y calcular el pago en base eso
 
-#Aclaraciones
+# Aclaraciones
 
 Sacos/Pantalones/Camisas, son clases es decir que se pueden instanciar para que cada objeto tenga su propio precio, o sea que pueden haber pantalones con distinto precio, igual que sacos, etc. Al momento de instanciarlas, voy a necesitar pasarles un precio y un nombre 
 Hay algunos comentarios al lado de cada línea de código que creo son aclaraciones pertinentes a tener en cuenta.
