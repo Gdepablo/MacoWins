@@ -2,7 +2,7 @@
 Ejercicio de Macowins para Diseño de Sistemas - Cátedra Viernes Noche - UTN FRBA 2022
 
 # Requerimientos
-Requerimientos:
+
 •	Saber el precio de venta de una prenda y sus tipos
 •	Calcular los descuentos correspondientes al estado en el que se encuentra la prenda (Liquidación/Promoción/etc)
 •	Registrar las ventas y calcular ganancias
